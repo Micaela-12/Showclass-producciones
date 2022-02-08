@@ -1,0 +1,30 @@
+.text_normal {
+    font-style:italic;
+
+&_negrita {
+    font-weight:bold;
+    color: blueviolet;
+}
+&_Grande{
+    font-size: 20px;
+}
+&_Relativo {
+    font-size: 200%;
+}
+&_comicSans {
+font-family: "Comic Sans Ms", sans-serif;
+}
+&_aLaDerecha{
+   text-align: right;
+}
+&_espaciadoLetra {
+ letter-spacing: 3px;
+}
+&_espaciadoPalabras {
+ word-spacing: 20px;
+}
+&_centrar {
+    text-align: center
+}
+}
+

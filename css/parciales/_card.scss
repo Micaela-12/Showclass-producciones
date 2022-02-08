@@ -1,0 +1,35 @@
+@import "./media-queries";
+
+.card {
+    background-color: black;
+    width: 23rem;
+    height: 23rem;
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: underline; color: blueviolet;
+    
+@include tablet {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+ @include movil {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+ 
+
+
+&__contenedor {
+    display: flex;
+
+&__titulo {
+    background-color: white;
+}
+}
+}

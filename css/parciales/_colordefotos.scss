@@ -1,0 +1,24 @@
+.ContenedorColor {
+    flex-wrap: wrap;
+    display: flex;
+
+& > .negro {
+    background-color: black; 
+    @include tablet {
+        background-color: blue;
+    }
+    @include movil {
+        background-color: blue;
+    }
+}
+& > .violeta {
+    background-color: blueviolet;
+    @include tablet {
+        background-color: blue;
+    }
+    @include movil {
+        background-color: blue;
+    }
+
+}
+}

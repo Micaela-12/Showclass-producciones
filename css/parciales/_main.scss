@@ -1,0 +1,36 @@
+@import "./media-queries";
+
+.main {
+    background-color: blueviolet;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+@include tablet {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    @include movil {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+&__titulo {
+    color: black;
+    text-decoration: underline; color: black;
+    margin: 10px;
+    padding: 10px;
+    font-size: 50px;
+    justify-content: center;
+
+&__texto {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+}
+}

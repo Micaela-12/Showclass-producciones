@@ -1,0 +1,45 @@
+@import "./media-queries";
+
+
+
+.footer {
+    background-color: blueviolet;
+    display: inline-block;
+    border: 2px solid white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    @include tablet {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    @include movil {
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+    
+ 
+&__video {
+    display: inline-block;
+    border: 2px solid white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+&__imagen {
+    display: inline-block;
+    border: 2px solid white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+}
+}

@@ -1,0 +1,433 @@
+.color--violeta {
+  color: 20px solid #f8bbd0 213, 100%, 14%;
+}
+
+.color--negro {
+  color: 12px solid #808c99 216, 25%, 34%;
+}
+
+.main {
+  background-color: blueviolet;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media screen and (max-width: 768px) and (max-width: 320px) {
+  .main {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.main__titulo {
+  color: black;
+  text-decoration: underline;
+  color: black;
+  margin: 10px;
+  padding: 10px;
+  font-size: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main__titulo__texto {
+  color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card {
+  background-color: black;
+  width: 23rem;
+  height: 23rem;
+  margin: 5px;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-decoration: underline;
+  color: blueviolet;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .card {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.card__contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card__contenedor__titulo {
+  background-color: white;
+}
+
+.text_normal {
+  font-style: italic;
+}
+
+.text_normal_negrita {
+  font-weight: bold;
+  color: blueviolet;
+}
+
+.text_normal_Grande {
+  font-size: 20px;
+}
+
+.text_normal_Relativo {
+  font-size: 200%;
+}
+
+.text_normal_comicSans {
+  font-family: "Comic Sans Ms", sans-serif;
+}
+
+.text_normal_aLaDerecha {
+  text-align: right;
+}
+
+.text_normal_espaciadoLetra {
+  letter-spacing: 3px;
+}
+
+.text_normal_espaciadoPalabras {
+  word-spacing: 20px;
+}
+
+.text_normal_centrar {
+  text-align: center;
+}
+
+.formulario {
+  background-color: white;
+  margin: 5px;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+  .formulario {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .formulario {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.formulario__titulo {
+  color: blueviolet;
+}
+
+.formulario__titulo__items {
+  background-color: blueviolet;
+  color: black;
+}
+
+.formulario__titulo__items__boton {
+  background-color: black;
+  color: blueviolet;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ContenedorColor {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.ContenedorColor > .negro {
+  background-color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .ContenedorColor > .negro {
+    background-color: blue;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .ContenedorColor > .negro {
+    background-color: blue;
+  }
+}
+
+.ContenedorColor > .violeta {
+  background-color: blueviolet;
+}
+
+@media screen and (max-width: 768px) {
+  .ContenedorColor > .violeta {
+    background-color: blue;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .ContenedorColor > .violeta {
+    background-color: blue;
+  }
+}
+
+.footer {
+  background-color: blueviolet;
+  display: inline-block;
+  border: 2px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.footer__video {
+  display: inline-block;
+  border: 2px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.footer__video__imagen {
+  display: inline-block;
+  border: 2px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.text_normal {
+  font-style: italic;
+}
+
+.text_normal_negrita {
+  font-weight: bold;
+  color: blueviolet;
+}
+
+.text_normal_Grande {
+  font-size: 20px;
+}
+
+.text_normal_Relativo {
+  font-size: 200%;
+}
+
+.text_normal_comicSans {
+  font-family: "Comic Sans Ms", sans-serif;
+}
+
+.text_normal_aLaDerecha {
+  text-align: right;
+}
+
+.text_normal_espaciadoLetra {
+  letter-spacing: 3px;
+}
+
+.text_normal_espaciadoPalabras {
+  word-spacing: 20px;
+}
+
+.text_normal_centrar {
+  text-align: center;
+}
+
+.title_podesContratarnos {
+  color: blueviolet;
+}
+
+.title_podesContratarnos_NuestrosShows {
+  color: blueviolet;
+}
+
+.title_podesContratarnos_NuestrosShows_Formulario {
+  color: blueviolet;
+}
+
+.title_podesContratarnos_NuestrosShows_FormularioNombreDeShow {
+  color: purple;
+}
+
+.title_podesContratarnos_NuestrosShows_FormularioNombreDeShowCaracteristicas {
+  color: purple;
+}
+
+.title_podesContratarnos_NuestrosShows_FormularioNombreDeShowCaracteristicasRecomendado {
+  color: purple;
+}
+
+.title_podesContratarnos_NuestrosShows_FormularioNombreDeShowCaracteristicasRecomendadoRobotDeLed {
+  color: blueviolet;
+  font-family: 'Hind', sans-serif;
+}
+
+.title_podesContratarnos_NuestrosShows_FormularioNombreDeShowCaracteristicasRecomendadoRobotDeLedBatucada {
+  color: blueviolet;
+  font-family: 'Hind', sans-serif;
+}
+
+.title_podesContratarnos_NuestrosShows_FormularioNombreDeShowCaracteristicasRecomendadoRobotDeLedBatucadaRedCarpet {
+  color: blueviolet;
+  font-family: 'Hind', sans-serif;
+}
+
+.title_podesContratarnos_NuestrosShows_FormularioNombreDeShowCaracteristicasRecomendadoRobotDeLedBatucadaRedCarpetshowMixer {
+  color: blueviolet;
+  font-family: 'Hind', sans-serif;
+}
+/*# sourceMappingURL=main.css.map */

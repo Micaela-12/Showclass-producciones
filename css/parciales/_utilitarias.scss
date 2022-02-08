@@ -1,0 +1,23 @@
+$rosa: #f8bbd0 (213, 100%, 14%);
+$violeta: #6a1b9a (348, 100%, 50%);
+$morado: #b37399 (338, 100% 41%);
+$gris : #808c99 (216, 25%, 34%);
+$violeta: 20px solid $rosa;
+$negro: 12px solid $gris;
+
+
+
+
+
+$color: (
+    "violeta": $violeta,
+    "negro": $negro,
+);
+@each $name, $color in $color {
+    .color--#{$name} {
+        color: $color;
+    }
+}
+
+
+

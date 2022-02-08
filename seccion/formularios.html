@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Sitio web de la productora Showclass  donde podes ver, elegir y contratar el show ideal para tu evento">
+    <meta name="keywords" content="shows, show, eleccion, contrataciones, planilla, presupueto, eleccion, forulario, datos">
+    <title>Formulario de contratacion</title>
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header>
+        <img data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500" src="../multimedia/logo.jpg"
+            alt="logo" width="150px">
+        <h1 class="header__TitleIndex">Envianos tu consulta</h1>
+        <nav class="header__contenedor">
+            <ul>
+                <li><a class="header__color" href="../inicio.html">Inicio</a></li>
+                <li><a class="header__color" href="#">Formulario</a></li>
+                <li><a class="header__color" href="./infonosotros.html">Info nosotros</a></li>
+                <li><a class="header__color" href="./showss.html">Tipos de show</a></li>
+                <li><a class="header__color" href="./tiposdeeventos.html">Tipo de evento </a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="formulario">
+    <form action="" method="get" enctype="text/plain">
+    <fieldset class="formulario">
+        <h2 class="formulario__titulo">Formulario</h2>
+        <legend">Tipo de evento </legend>
+        <input  type="radio" name="tipo de show" value="15años">15
+        <input  type="radio" name="tipo de show" value="Casamiento">Casamientos
+        <input  type="radio" name="tipo de show" value="Coorporativo">Coorporativos
+        <input  type="radio" name="tipo de show" value="Cumpleaños">Cumples
+        <br>
+        <label class="formulario__items" for="info personal">Nombre de Homenajeado/a:</label>
+        <input type="text" name="username" id="info personal" placeholder="Nombre"/>
+        <br>
+        <label class="formulario__items" for="info personal">Fecha del evento:</label>
+        <input type="text" name="fecha" id="Fecha de evento" placeholder="Fecha de evento"/>
+        <br>
+        <label class="formulario__items" for="info personal">Direccion del evento:</label>
+        <input type="text" name="Direccion" id="Direccion del evento" placeholder="Direccion del evento"/>
+        <br>
+        <label class="formulario__items" for="info personal">Correo electronico:</label>
+        <input type="text" name="correo electronico" id="Correo electronico" placeholder="Correo electronico"/>
+        <br>
+        <label class="formulario__items" for="info personal">Show a contratar:</label>
+        <input type="text" name="tipo de show" id="Show a contratar" placeholder="Show a contratar"/>
+        <br>
+        <label class="formulario__items" for="info personal">Horario de incio de show:</label>
+        <input type="number" name="Horario de inicio" id="Horario de inicio de show" placeholder="Horario de inicio del show">
+        <br>
+        <label class="formulario__items" for="info personal">Telefono de contacto:</label>
+        <input type="number" name="Telefono" id="Telefono de contacto" placeholder="Telefono de contacto"/>     
+        <br>
+        <label class="formulario__items" for="Por donde nos conociste">Por donde nos conociste</label>
+        <select name="Por donde nos conociste" id="UserSize">
+            <option value="Facebook">Facebook</option>
+            <option value="Isntagram">Isntagram</option>
+            <option value="Facebook">Facebook</option>
+            <option value="Conocido/familiar">Conocido/familiar</option>
+            <option value="Salon de evento">Solon de evento</option>
+        </select>
+            <input type="text" name="redes Sociales" id="Dejanos tu red social" placeholder="Dejanos tu red social"/>
+            <br>
+            <input class="formulario__boton" type="Submit" value="enviar"></input>
+            <input class="formulario__boton" type="Reset" value="Reset"></input>
+    </form>
+    </fieldset>
+    </section>
+    <footer class="footer">
+        <a  class="footer__video" href="">video de youtube</a>
+        <a  class="footer__video" href="">video de youtube</a>
+        <a  class="footer__video" href="">video de youtube</a>
+        <div class="logoRedes">Whatssapp</div>
+        <a class="footer__imagen" href="">
+            <img src="" alt="correo electronico">icono de informacion correo</a>
+        <a class="footer__imagen" href="">
+            <img src="" alt="numero de telefono">icono de informacion telefono</a>
+        <a class="footer__imagen" href="">
+            <img src="" alt="Whatsapp">icono de informacion Whatsaap</a>
+        <a class="footer__imagen" href="">
+            <img src="" alt="Intagram">icono de informacion instagram</a>
+        <a class="footer__imagen" href="">
+            <img src="" alt="Facebook">icono de informacion facebook</a>
+    </footer>
+          <script>
+            AOS.init();
+          </script>
+</body>
+</html>

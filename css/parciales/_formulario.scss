@@ -1,0 +1,43 @@
+@import "./media-queries";
+@import "./modificaciontext";
+
+.formulario {
+    background-color: white;
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column; 
+
+   @include tablet {
+       flex-wrap: wrap;
+       align-items: center;
+       justify-content: center;
+   }
+    @include movil {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+  
+  &__titulo {
+      color: blueviolet;
+  
+      
+    
+
+  &__items {
+      background-color: blueviolet;
+      color: black;
+  
+  &__boton {
+  background-color: black;
+   color: blueviolet;
+   justify-content: center;
+   align-items: center;
+  }
+}
+}
+}
