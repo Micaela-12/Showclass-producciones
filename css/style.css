@@ -452,3 +452,9 @@ table {
     justify-content: left;
     align-items: center;
 }
+
+.carrusel {
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+}
