@@ -453,3 +453,9 @@ table {
 .card-text {
     font-size: 15px;
 }
+.menu {
+    background-color: black;
+    color: blueviolet;
+    justify-content: left;
+    align-items: center;
+}
