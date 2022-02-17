@@ -453,9 +453,8 @@ table {
 .card-text {
     font-size: 15px;
 }
-.menu {
+.carrusel {
     background-color: black;
-    color: blueviolet;
-    justify-content: left;
-    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
