@@ -449,15 +449,7 @@ table {
        .ContenedorColor > .violeta {
            background-color: blueviolet;
        }
-.menu {
-    background-color: black;
-    color: blueviolet;
-    justify-content: left;
-    align-items: center;
-}
 
-.carrusel {
-    background-color: black;
-    text-align: center;
-    justify-content: center;
+.card-text {
+    font-size: 15px;
 }
