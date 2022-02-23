@@ -481,11 +481,12 @@ h3 {
     padding: 5px;
    }
    h4 {
-       background-color: blueviolet;
-       color: white;
+       background-color: white;
+       color: blueviolet;
        justify-content: center;
        align-items: center;
        margin: 10;
        padding: 10;
-       font-size: 70px;
+       font-size: 20px;
+       text-decoration-line: overline;
    }
