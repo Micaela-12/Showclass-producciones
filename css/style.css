@@ -483,9 +483,9 @@ h3 {
    h4 {
        background-color: blueviolet;
        color: white;
-       align-items: center;
        justify-content: center;
+       align-items: center;
        margin: 10;
        padding: 10;
-       font-size: 15px;
+       font-size: 70px;
    }
